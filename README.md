@@ -1,3 +1,8 @@
+# Want to run 2 flask app dual
+```shell
+$ export FLASK_APP=script1.py
+$ flask run --host 0.0.0.0 --port 5000
+```
 # ano-webGUI
 
 This article will walk you through the basics of deploying a machine learning model. We're going to deploy a PyTorch image classifier with Flask. This is the first critical step towards turning your model into an app.
