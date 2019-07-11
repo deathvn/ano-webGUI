@@ -20,10 +20,7 @@ def make_overwritefolder(path):
     else:
         os.makedirs(path)
 
-UPLOAD_FOLDER = '../uploads/01'
 ALLOWED_EXTENSIONS = set(['jpg'])
-frames_path = 'frames'
-mask_path = 'mask'
 plot_path = 'static/plot'
 result_video_path = 'static/videos'
 
@@ -34,12 +31,6 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER # upload file
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
-
-    make_overwritefolder(UPLOAD_FOLDER)
-    make_overwritefolder(plot_path)
-    make_overwritefolder(frames_path)
-    make_overwritefolder(result_video_path)
-    make_overwritefolder(mask_path)
 
     if request.method == 'GET':     
         return render_template('index.html')

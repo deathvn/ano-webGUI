@@ -1,12 +1,13 @@
-# Want to run 2 flask app dual
+# to run 2 flask app dual
 ```shell
-$ export FLASK_APP=script1.py
-$ flask run --host 0.0.0.0 --port 5000
+$ export FLASK_APP=appGUI.py
+$ flask run --host 0.0.0.0 --port 5001
 ```
 # ano-webGUI
-
-This article will walk you through the basics of deploying a machine learning model. We're going to deploy a PyTorch image classifier with Flask. This is the first critical step towards turning your model into an app.
-
-By the end of this article, you’ll be able to take a PyTorch image classifier and turn it into a cool web app. In this app, users will be able to upload an image of a flower to see what kind of flower it is.
-
-Trong phần này, chúng tôi sẽ tiến hành cài đặt một web demo cho bài toán Phát hiện hành vi bất thường. Sử dụng kiến trúc ban đầu của bài viết~\parentcite(Liu), chúng tôi bỏ qua thao tác đọc labels, và dùng pre-train được train từ dataset ShanghaiTech để chạy mô hình trên đoạn video bất kì. 
+this is GUI front-end of our repo [futureframes for abnormal detection](https://github.com/deathvn/anopred-futureframe.git)   
+to run this GUI app, follow below comand.
+```shel
+python appGUI.py
+```
+open the link appear on browser, the home screen will be like this:  
+![homescreen](assets/homeapp.png)
