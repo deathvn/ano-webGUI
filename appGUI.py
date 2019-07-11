@@ -26,7 +26,6 @@ result_video_path = 'static/videos'
 
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER # upload file
 #run_with_ngrok(app)  # Start ngrok when app is run
 
 @app.route('/', methods=['GET', 'POST'])

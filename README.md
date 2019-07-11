@@ -11,3 +11,10 @@ python appGUI.py
 ```
 open the link appear on browser, the home screen will be like this:  
 ![homescreen](assets/homeapp.png)
+Choose model, and data, after that, click Run button, the result will be appear like this:  
+Video output: red-retangle frame is abnormal, yellow dot is where abnormal events  
+![videoout](assets/videooutput.png)
+Score graph: score/frames of each video  
+![score](assets/scoregraph.png)
+ROC curve: the ROC curve, and AUC metric  
+![auc](assets/roccurve.png)
