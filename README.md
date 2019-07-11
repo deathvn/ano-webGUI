@@ -1,4 +1,4 @@
-# to run 2 flask app dual
+# [flask tip] to run 2 flask app dual
 ```shell
 $ export FLASK_APP=appGUI.py
 $ flask run --host 0.0.0.0 --port 5001
